@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/healthcare_system0.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    background: #ff267e;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #efed40;
+    color: #262626;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+    
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 540px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+
+.user 
+{
+    width: 100px;
+    height: 100px;
+    border-radius:50px ;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+h2 
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+
+.loginBox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+}
+
+.loginBox input 
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"] 
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 19px;
+}
+
+select
+{
+    margin-bottom: 10px;
+    margin-left:10px;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 90px;
+    color: #000;
+    font-size: 19px;
+}
+
+
+::placeholder
+{
+    color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.loginBox a
+{
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  float: right;
+}
+
+.button {
+    position: absolute;
+    top:87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.loginbutton  {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background: #ff267e;
+}
+
+.loginbutton:hover {
+    background-color: #efed40;
+    color: #262626;
+}
+
